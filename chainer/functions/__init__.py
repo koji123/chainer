@@ -102,6 +102,7 @@ from chainer.functions.pooling import max_pooling_2d  # NOQA
 from chainer.functions.pooling import roi_pooling_2d  # NOQA
 from chainer.functions.pooling import spatial_pyramid_pooling_2d  # NOQA
 from chainer.functions.pooling import unpooling_2d  # NOQA
+from chainer.functions.theano import theano_function  # NOQA
 from chainer.functions.util import forget  # NOQA
 
 
@@ -334,6 +335,8 @@ from chainer.functions.pooling.spatial_pyramid_pooling_2d import spatial_pyramid
 from chainer.functions.pooling.spatial_pyramid_pooling_2d import SpatialPyramidPooling2D  # NOQA
 from chainer.functions.pooling.unpooling_2d import Unpooling2D  # NOQA
 from chainer.functions.pooling.unpooling_2d import unpooling_2d  # NOQA
+
+from chainer.functions.theano.theano_function import TheanoFunction  # NOQA
 
 from chainer.functions.util.forget import forget  # NOQA
 from chainer.functions.util.forget import Forget  # NOQA
